@@ -6,3 +6,5 @@ while (($data = fgetcsv($handle)) !== false) {
     $json = file_put_contents("locations.json",$jsonData, FILE_APPEND);
 }
 
+echo "Done";
+
